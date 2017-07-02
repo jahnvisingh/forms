@@ -1,0 +1,220 @@
+body{background-image: url("nn.png") ;
+     background-repeat:no-repeat;
+     background-size:1366px 866px;
+     opacity:0.8;
+     margin:0px;
+     padding:0px;
+     overflow-x: hidden;}
+
+#register{position:relative;
+	      width:300px;
+	     height:500px;
+	     top:100px;
+	     left:850px;
+	     background-color: 	#4682B4;
+	     text-align: center;
+	     opacity: 0.5;}
+
+#f1{position: absolute;
+    top:120px;
+    left:870px;
+    color:white;
+    font-size: 20px;}
+    
+
+#f1 input[type=text]
+   {width:250px;
+   	height:20px;
+    padding:4px 4px;
+    border-radius:10px;}
+
+#f1 input[type=password]
+   {width:250px;
+   	height:20px;
+    padding:4px 4px;
+    border-radius:10px;}
+
+
+.text-danger{
+        color:red; }
+
+#f1 input[type=submit]
+   {width:300px;
+   	height:40px;
+    padding:4px 4px;
+    position: absolute;
+    top:457px;
+    left:-20px;
+    color:white;
+    background-color:#000080;
+    opacity:0.6;
+    border:none;
+    font-size: 20px;}
+
+#signup{position:absolute;
+	    color: white;
+	    top:43px;
+	    right:216px;
+	    font-size: 50px;
+	    background-color:#000080;
+	    width:230px;
+	    opacity: 0.6;
+        }
+#img{position:absolute;
+     top:10px;
+     right:430px;
+     }
+
+#notes{position:absolute;
+       top:150px;
+       left:80px;
+       color:white;
+       font-size: 40px;}
+
+#member{position:absolute;
+	    top:250px;
+	    left:80px;
+        color:white;
+        font-size: 30px;}
+#member a{color:#00BFFF;
+        text-decoration:none;}
+
+#member a:hover{text-decoration:underline;}
+
+#match{position: absolute;
+       top:350px;
+       left:80px;
+       color:white;
+       font-size: 30px;}
+
+#format{position:relative;
+	     width:300px;
+	     height:300px;
+	     top:100px;
+	     left:500px;
+	     background-color:#4682B4;
+       }
+
+#enter{position: absolute;
+       color: white;
+       top:150px;
+       left:550px;
+       font-size: 20px;
+       }
+
+#enter input[type=text] {
+	   width:200px;
+   	   height:20px;
+       padding:4px 4px;
+       border-radius:10px;
+}
+
+#enter input[type=password] {
+	   width:200px;
+   	   height:20px;
+       padding:4px 4px;
+       border-radius:10px;
+   }
+
+
+ #enter input[type=submit]
+   {width:300px;
+   	height:50px;
+    padding:4px 4px;
+    position: absolute;
+    top:220px;
+    left:-50px;
+    color:white;
+    background-color:#000080;
+    opacity:0.6;
+    border:none;
+    font-size: 20px;}
+
+ #var {color: red;}
+
+ #sign{position: absolute;
+ 	  left:480px;
+ 	  bottom:100px;
+ 	  color:white;
+ 	  font-size: 30px;
+      }
+
+#sign a{color:#000080;
+        text-decoration:none;}
+
+#sign a:hover{text-decoration:underline;}
+
+#msg {position: relative;
+	 left:10px;
+	 top:20px;
+     font-size: 20px;
+	color:white;}
+
+#welcome{position:relative;
+         left:40px;
+         top:50px;
+         font-size: 40px;
+         font-weight: bold;
+         color:white;}
+
+#name{position: relative;
+      left:620px;
+      top:60px;
+      font-size: 30px;
+      color:white;
+      }
+
+#create{position: absolute;
+         top:250px;
+         left:30px;
+        color:white;
+        font-size: 30px;}
+
+#table{position: absolute;
+       top:200px;
+       right:80px;
+       color:white;
+       font-size:30px;
+       }
+#table input[type=submit]
+   {border-radius:20px;
+   	background-color: #000080;
+   	font-size: 20px;
+   	color: white;
+   	border:none;
+   	padding: 4px 4px;
+    width:100px;
+    height:40px; }
+
+#create input[type=submit] {border-radius:20px;
+   	background-color: #000080;
+   	font-size: 20px;
+   	color: white;
+   	border:none;
+   	padding: 4px 4px;
+    width:100px;
+    height:40px; }
+
+ #create input[type=text]
+      {border-radius: 10px;
+       border:none;
+       padding: 4px 4px;
+       width:400px;
+       height:30px;
+
+     }
+
+#logout{position: absolute;
+        top:30px;
+        right:50px;
+    border-radius: 10px;
+   	background-color: #000080;
+   	font-size: 20px;
+   	border:none;
+   	padding: 4px;
+    width:60px;
+    height:30px; }
+#logout a{color: white;
+          text-decoration:none;}
+#logout a:hover{color:white;
+          text-decoration:underline;}
